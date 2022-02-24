@@ -1,5 +1,5 @@
 {
-  "homepage": "https://learncrash.github.io/helloreact",
+  "homepage": "https: //learncrash.github.io/React-Weather-App/",
   "name": "react-weather-app",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.26.0",
     "bootstrap": "^5.1.3",
+    "mini-css-extract-plugin": "^2.5.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.2",
     "react-dom": "^17.0.2",
