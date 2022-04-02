@@ -7,7 +7,6 @@ export default function InputCity({ city, setCity, Apicall }) {
   const apiclick = (event) => {
     event.preventDefault();
     if (city !== "") {
-      console.log(city);
       Apicall();
     }
     else {
@@ -16,7 +15,7 @@ export default function InputCity({ city, setCity, Apicall }) {
   }
   return (
     <>
-      <Modal show={show} dialogClassName="modal-50w" size="md" centered fullscreen='sm-down'
+      <Modal show={show} dialogClassName="modal-50w" fullscreen="true" size="lg"
       >
         <Modal.Header>
           <Modal.Title>React-Weather-App</Modal.Title>

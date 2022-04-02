@@ -1,15 +1,25 @@
+.Title{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(102, 221, 23);
+}
 .result{
     height: 100vh;
     display: grid;
     place-items: center;
+    border-radius: 5px;
 }
 .result__box{
     padding:10%;
     text-align: center;
-    background-color:rgba(0,24,78,.4);
+    background-color:rgb(255, 192, 247);
     border-radius: 10px;
-    box-shadow: 0 5px 6px rgba(0,0,0,0.12),0 2px 3px rgba(0,0,0,0.24);
+    box-shadow: 0 5px 6px rgba(209, 209, 209, 0.12),0 2px 3px rgba(0,0,0,0.24);
     padding-top: 50;
     padding-bottom: 50px;
-    
+}
+.result{
+    background-repeat: no-repeat;
+    background-size:cover;
+
 }
